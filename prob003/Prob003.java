@@ -1,9 +1,28 @@
-package manynum;
+daily/prob_3/ty
+package prob003;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class ManyNumber {
+public class Prob003 {
     public static void main(String[] args) {
+//         김태연
+//         Scanner sc = new Scanner(System.in);
+//         int[] arr = new int[10];
+//         for(int i = 0; i < 10; i++) {
+//             arr[i] = sc.nextInt();
+//         }
+
+//         int[] cnt = new int[10];
+
+//         for(int i = 0; i < 10; i++) {
+//             cnt[arr[i]] += 1;
+//         }
+
+//         int max = Arrays.stream(cnt).max().getAsInt();
+//         System.out.println(max);
+
+//       최현주
         Scanner sc = new Scanner(System.in);
 
         System.out.println("숫자 10개를 입력하시오.(중복 허용):");
@@ -41,3 +60,4 @@ public class ManyNumber {
     }
 
 }
+
