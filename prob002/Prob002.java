@@ -23,5 +23,19 @@ public class Prob002 {
 			a1 = tmp;
 			System.out.print(a2 + " ");
 		}
+        /* ty
+        int []arr = new int[100];
+
+		arr[1] = 1;
+		arr[2] = 1;
+
+		for(int i = 3; i < 100; i++) {
+			arr[i] = arr[i-1] + arr[i-2];
+		}
+
+		for(int i = 0; i <= 10; i++) {
+			System.out.println(arr[i]);
+		}
+         */
 	}
 }
