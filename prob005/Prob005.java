@@ -34,6 +34,23 @@ public class Prob005 {
 
         }
          */
+
+         /* hj
+          String input = "helloWorLD";
+        char []arr;
+        arr = input.toCharArray();
+
+        for (int i = 0; i<arr.length; i++ ){
+            if(arr[i] >= 'a' && arr[i] <= 'z'){
+                arr[i] = (char) (arr[i] + 'A' - 'a');
+            }
+            else if(arr[i] >= 'A' && arr[i] <='z'){
+                arr[i] =(char)(arr[i] -('A'-'a'));
+
+            }
+        }
+        System.out.print(arr);
+          */
     	
     	//정승우
     	/*
@@ -42,5 +59,6 @@ public class Prob005 {
         JeongSeung05 jeongSeung05 = new JeongSeung05();
         jeongSeung05.caseTrans(str);
     	*/
+
     }
 }
