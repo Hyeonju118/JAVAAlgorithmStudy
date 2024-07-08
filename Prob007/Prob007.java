@@ -1,8 +1,8 @@
-package prob005;
+package prob008;
 
 import java.util.Scanner;
 
-class JeongSeung07 {
+class JeongSeung007 {
 
     public String isPrime(int n) {
 
