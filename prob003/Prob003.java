@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 import java.util.Scanner;
 
-class kiseoktest {
+class kiseok003 {
    int[] mostVal(String s) {
       int[] ansl = new int[10];
       String[] strl = s.split(" ");
@@ -22,7 +22,7 @@ class kiseoktest {
    }
 }
 
-public class test {
+public class Prob003 {
    public static void main(String[] args) {
 //         김태연
 //         Scanner sc = new Scanner(System.in);
@@ -76,8 +76,8 @@ public class test {
 
       // 이기석
 
-      kiseoktest ans = new kiseoktest();
-
+      kiseok003 ans = new kiseok003();
+      sc.nextLine();
       System.out.println(Arrays.toString(ans.mostVal(sc.nextLine())));
 
       sc.close();
