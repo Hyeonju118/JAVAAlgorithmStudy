@@ -1,4 +1,4 @@
-package prob008;
+package Prob007;
 
 import java.util.Scanner;
 
